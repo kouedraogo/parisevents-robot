@@ -75,7 +75,7 @@ axios
         //console.log(respValue);
 
 		// drop existing database before refresh
-		mongoose.connection.db.dropCollection('events',function (err, doc) {
+		mongoose.connection.dropCollection('events',function (err, doc) {
 			if (err) return console.error(err);
 			else
 			  return console.log("Collection events successfully drop " + Date.now());
