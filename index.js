@@ -15,7 +15,7 @@ mongoose.connect(mongoDbUrl, {useNewUrlParser: true, useUnifiedTopology: true, d
 
 
 
-// Schema mongoose simple pour chaque crypto
+// Schema mongoose simple pour chaque Events
   let eventSchema = new mongoose.Schema({
 	//recordid : String,
 	//id : String,
