@@ -4,8 +4,8 @@ const axios = require("axios");
 var cron = require('node-cron');
 require('dotenv').config();
 
-var mongoDbUrl = 'mongodb://superuser:motdepasse@127.0.0.1:27017'; //by default
-//var mongoDbUrl = 'mongodb+srv://abelardo:abelardo@parisevents.y38fe.mongodb.net/Event_db?retryWrites=true&w=majority'
+//var mongoDbUrl = 'mongodb://superuser:motdepasse@127.0.0.1:27017'; //by default
+var mongoDbUrl = 'mongodb+srv://abelardo:abelardo@parisevents.y38fe.mongodb.net/Event_db?retryWrites=true&w=majority'
 //var mongoDbUrl = 'mongodb+srv://process.env.MONGODB_USER:process.env.MONGODB_PSW@parisevents.y38fe.mongodb.net/Event_db?retryWrites=true&w=majority'
 
 // Conncection à la bdd mongodb, via mongoose
